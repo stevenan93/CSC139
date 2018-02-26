@@ -1,0 +1,27 @@
+[ans@athena 2_assignment]> make
+gcc -o main main.c -lpthread -lrt
+[ans@athena 2_assignment]> ./main 1 1 1
+SLEEPTIME: 1 seconds
+PRODUCERS: 1
+CONSUMERS 1
+
+producer thread created
+producer produced 1804289383
+
+consumer thread created
+[ans@athena 2_assignment]> ./main 5 3 1
+SLEEPTIME: 5 seconds
+PRODUCERS: 3
+CONSUMERS 1
+
+producer thread created
+producer produced 1804289383
+
+producer thread created
+producer produced 846930886
+producer produced 1681692777
+
+producer thread created
+
+consumer thread created
+
